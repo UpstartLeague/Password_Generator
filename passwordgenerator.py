@@ -55,7 +55,7 @@ def Strength_Check(password):
 
 ###button
 
-Button(root, text="GENERATE PASSWORD", command=lambda:[Generator(), Strength_Check()]).pack(pady=5)
+Button(root, text="GENERATE PASSWORD", command = Generator()).pack(pady=5)
 
 heading = Label(root, text='Permitted Special Characters', font='arial 10 bold').pack()
 
